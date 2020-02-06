@@ -4,7 +4,7 @@ def square_array(array)
   square
 end
 
-def square_array(array)
+def square_array_map(array)
   square = Array.new
   array.map { |ele| square << ele**2 if ele % 2 == 1}
   square
